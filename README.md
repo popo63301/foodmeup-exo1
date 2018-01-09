@@ -1,3 +1,5 @@
+# foodmeup-exo1
+
 ## How to use :
 - Clone the repo
 - Open the "index.js" file and change the unit for convertUnit(unit1, unit2) with unit1 the unit which we want to convert to unit2 (l.94)
