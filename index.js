@@ -65,7 +65,7 @@ function factorFromUnitInheritedToUnit(unitA, unitB) {
   return factor
 }
 
-function factor(unitA, unitB) {
+function convertUnit(unitA, unitB) {
   let chainA = chainOfInheritance(unitA)
   let chainB = chainOfInheritance(unitB)
 
@@ -91,4 +91,4 @@ function factor(unitA, unitB) {
 }
 
 
-console.log(factor(pce, kg))
+console.log(convertUnit(pce, kg))
