@@ -1,9 +1,14 @@
-# Quick overview
+## How to use :
+- Clone the repo
+- Open the "index.js" file and change the unit for convertUnit(unit1, unit2) with unit1 the unit which we want to convert to unit2 (l.94)
+- Run ```node index.js``` while in the directory and you'll get your result
+
+## Description:
 
 In this exercise, I assumed that gram could be not the basis of units and I tried
 to figure out a rule of thumb for all conversion.
 
-# Chain of inheritance:
+## Chain of inheritance:
 
 Let's describe the inheritance of a unit:
 
@@ -13,7 +18,7 @@ For example, we could write the chain of inheritance of "LOT DE 8 PCE" like this
 
 LOT DE 8 PCE -> pce -> g
 
-# Description of the algorithm:
+## Description of the algorithm:
 
 If I assumed that gram is the basis of inheritance for all units, I'll convert
 a unit A to g then g to D if my goal was to convert A to D.
@@ -40,7 +45,7 @@ in the other chain of inheritance)
 
 ![Image](https://image.ibb.co/i9PiE6/Drawing_2.png)
 
-# Example:
+## Example:
 
 convertUnit(kg, g) => 1000
 
